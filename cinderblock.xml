@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+    <block
+        name="Cinder Background Gradient"
+        id="org.ibartholomew.bggradient"
+        author="Ian Bartholomew"
+        license="MIT"
+        summary="A block to generate a radial background gradient"
+        url="https://github.com/paulhoux/Cinder-Awesomium"
+        git="git://github.com/paulhoux/Cinder-Awesomium.git"
+        >
+        <supports os="macosx" />
+        <supports os="msw" />
+        <includePath>include</includePath>
+        <header>include/CiBackgroundGradient.h</header>
+        <source>src/CiBackgroundGradient.cpp</source>
+        <copyExclude>samples</copyExclude>
+    </block>
+</cinder>
