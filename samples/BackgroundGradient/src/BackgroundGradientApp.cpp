@@ -10,8 +10,6 @@ using namespace std;
 class BackgroundGradientApp : public AppNative {
 public:
     void setup();
-    void mouseDown( MouseEvent event );
-    void update();
     void draw();
     void resize();
     
@@ -27,14 +25,6 @@ void BackgroundGradientApp::setup()
     
     mVboMeshRef = bggradient::BackgroundGradient::buildGradient(mStart, mStop, getWindowWidth(), getWindowHeight());
     
-}
-
-void BackgroundGradientApp::mouseDown( MouseEvent event )
-{
-}
-
-void BackgroundGradientApp::update()
-{
 }
 
 void BackgroundGradientApp::draw()
